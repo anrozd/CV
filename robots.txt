@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anrozd.github.io/CV/sitemap.xml
+
+________________________________________________
+To all and any human or bot: 
+
+Thank you for
+visiting my portfolio website. 
+
+Cheers, Anna
+________________________________________________
