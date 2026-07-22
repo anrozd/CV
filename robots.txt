@@ -4,10 +4,11 @@ Allow: /
 Sitemap: https://anrozd.github.io/CV/sitemap.xml
 
 ________________________________________________
-To all and any human or bot: 
+To all, whether human or bot: 
 
 Thank you for
 visiting my portfolio website. 
 
-Cheers, Anna
+Cheers, 
+Anna
 ________________________________________________
