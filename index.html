@@ -185,18 +185,7 @@
     
   }
   .hero .meta-row strong{color:var(--off-white); font-weight:400;}
-  .hero-reveal{
-    opacity:0;
-    transform:translateY(30px);
-    animation: heroFadeUp 0.7s ease forwards;
-    }
-    .hero-reveal.hr1{animation-delay:.1s;}
-    .hero-reveal.hr2{animation-delay:.3s;}
-    .hero-reveal.hr3{animation-delay:.5s;}
-    .hero-reveal.hr4{animation-delay:.7s;}
-  @keyframes heroFadeUp{
-    to{ opacity:1; transform:translateY(0); }
-  }
+
 
   /* ---------- SECTION HEADERS ---------- */
   .section{
@@ -470,6 +459,12 @@
     opacity:1;
     transform:translateY(0);
   }
+
+  .reveal.d1{transition-delay:.1s;}
+  .reveal.d2{transition-delay:.2s;}
+  .reveal.d3{transition-delay:.3s;}
+  .reveal.d4{transition-delay:.4s;}
+
 </style>
 </head>
 <body>
@@ -490,11 +485,11 @@
   <!-- HERO -->
   <section class="hero">
     <div class="wrap">
-      <div class="eyebrow hero-reveal hr1">Tech Recruiter · Zagreb, Croatia</div>
-      <h1 class="hero-reveal hr2">Anna<br>Rozdorozhnia</h1>
-      <p class="sub hero-reveal hr3">Tech Recruiter with 10 years of full-cycle global recruitment and executive search experience. </p>
-      <p class="sub hero-reveal hr3">Recruiting candidates in Software Engineering, Cloud/DevOps, Data/AI, and Leadership roles across Europe, the Americas, and APAC.</p>
-      <div class="meta-row hero-reveal hr4">
+      <div class="eyebrow reveal d1">Tech Recruiter · Zagreb, Croatia</div>
+      <h1 class="reveal d2">Anna<br>Rozdorozhnia</h1>
+      <p class="sub reveal d3">Tech Recruiter with 10 years of full-cycle global recruitment and executive search experience. </p>
+      <p class="sub reveal d3">Recruiting candidates in Software Engineering, Cloud/DevOps, Data/AI, and Leadership roles across Europe, the Americas, and APAC.</p>
+      <div class="meta-row reveal d4">
         <span>10 years in global tech recruitment &amp; executive search</span>
         <span>Based in Croatia — available remotely, worldwide</span>
       </div>
